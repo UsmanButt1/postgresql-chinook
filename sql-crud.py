@@ -136,6 +136,13 @@ session.commit()
 #     print("No records found")
 
 
+# delete multiple records
+# programmers = session.query(Programmer)
+# for programmer in programmers:
+#     session.delete(programmer)
+#     session.commit()
+
+
 # query the database to find all Programmers
 programmers = session.query(Programmer)
 for programmer in programmers:
